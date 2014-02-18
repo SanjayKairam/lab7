@@ -5,11 +5,8 @@ var projects_json = require('./projects.json');
 
 
 var ProjectSchema = new Mongoose.Schema({
-  //"id": Number,
-  "title": String,
-  "date": String,
-  "summary": String,
-  "image": String
+  "title" : String,
+  // FILL IN THE REST OF THE SCHEMA HERE */
 });
 
 exports.Project = Mongoose.model('Project', ProjectSchema);
